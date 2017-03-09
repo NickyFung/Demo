@@ -1,0 +1,41 @@
+//jshintrc规则的描述文件,
+//详细了解可以去百度搜索“jshint 配置”关键字
+//翻译版本地址：http://www.jianshu.com/p/4cb23f9e19d3
+//官方API文档地址：http://jshint.com/docs/options/
+{
+  "boss": false,
+  //禁止比较表达式的值没有达到预期警告。
+
+  "bitwise": true,
+  //禁用位运算符，位运算符在 JavaScript 中使用较少，经常是把 && 错输成 &。
+
+  "curly": true,
+  //循环或者条件语句必须使用花括号包围.
+
+  "immed": true,
+  //表示立即执行函数必须用括号包起来 (function () { } ());
+
+  "eqeqeq": true,
+  //设置为true,禁止使用这个选项 ==和 !=，强制使用 ===和 !==。
+
+  "eqnull": true,
+  //禁止 == null比较
+
+  "browser": true,
+  //暴露浏览器属性的全局变量，列如 window,document;
+
+  "undef": true,
+  //变量未定义
+
+  "unused": true,
+  //表示禁止变量已经声明，但却不使用
+
+  "devel": true,
+  //这个选项定义了全局变量,通常用于日志调试: console, alert等等
+
+  "node": true,
+  //表明你的项目是NodeJS项目，require等node特有的全局函数将通过检查
+
+  "jquery": true
+  //这个选项定义全局暴露的jQuery库
+}

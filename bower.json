@@ -1,0 +1,21 @@
+{
+  "name": "demo",
+  "description": "",
+  "main": "",
+  "authors": [
+    "Nicky <460610260@qq.com>"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "angularjs#^1.6.3",
+    "jquery": "^3.1.1"
+  }
+}
